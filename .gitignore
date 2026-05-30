@@ -1,0 +1,90 @@
+# ============================================
+# E:\toolbox  .gitignore
+# 白名单模式：默认忽略所有，只跟踪元数据
+# ============================================
+
+# 默认忽略所有
+/*
+!/CS2/
+/CS2/
+
+# 只跟踪这些目录和文件
+!.gitignore
+!README.md
+!CATALOG.md
+!HOWTO_UPDATE.txt
+
+!bin/
+!config/
+!doc/
+!index/
+!scripts/
+!temp/
+
+# 但忽略其中的二进制/数据文件
+bin/*
+!bin/*.bat
+
+temp/*
+!temp/.gitkeep
+
+# 装机手册
+!装机手册.txt
+
+# 忽略各工具目录（不跟踪任何工具内容）
+7-Zip/
+AGENT/
+Apollo/
+D21_3M Keyboard/
+DJI Education Hub/
+DiskGenius/
+Dism++10.1.1002.1B/
+DriverGenius/
+ETAlien Booster/
+Everything/
+Feishu/
+Flydigi Space Station/
+GenP/
+JDPaint/
+KeyStats-Windows-1.41/
+MSI Afterburner/
+MUSESCORE/
+MagicEXIF/
+Mem Reduct/
+MuMu Player 12/
+OrcaSlicer/
+PixPin/
+PotPlayer/
+RivaTuner Statistics Server/
+SogouInput/
+THINKBOOK/
+Twitch Drops Miner/
+baidu/
+bettergi/
+cc_switch/
+clash/
+curl/
+dlss/
+ffmpeg/
+file converter/
+gh/
+git/
+i4/
+kikoplay/
+livehime/
+motrix/
+netlimiter/
+obs-studio/
+power toys/
+ripgrep/
+sSH/
+spacedesk/
+todesk/
+ugeeTablet/
+video_download/
+wget/
+图吧工具箱202507/
+弹幕姬/
+搞机工具箱11.0.1/
+点歌姬/
+课表/

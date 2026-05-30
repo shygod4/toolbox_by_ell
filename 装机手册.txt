@@ -1,0 +1,84 @@
+0重装系统  https://www.microsoft.com/zh-cn/software-download/windows11
+1激活Windows 管理员powersell irm https://massgrave.dev/get | iex
+2各项设置
+3firefox  https://www.firefox.com/zh-CN/download/all/
+4并线下载各种GAME
+5火绒  https://www.huorong.cn/
+6更新驱动
+7geek   https://geekuninstaller.com/download
+8ghub  https://www.logitechg.com/zh-cn/software/ghub
+9office office tool plus    https://www.officetool.plus/zh-cn/introduction/download.html
+10watt toolkit    https://steampp.net/
+117z  https://sparanoid.com/lab/7z/
+12外观   https://www.bilibili.com/video/BV1su4y1A7d7  配置文件在U盘根目录
+13翻墙   https://github.com/bannedbook/fanqiang
+14搜狗输入法   https://shurufa.sogou.com/windows
+15N卡驱动  https://www.nvidia.cn/software/nvidia-app/
+16电源计划   https://www.bilibili.com/opus/958466606882619392
+17手机模拟器   https://mumu.163.com/
+18Todesk  https://www.todesk.com/
+19QQ   https://im.qq.com/index/#/
+20微信   https://weixin.qq.com/
+21VSCODE   https://code.visualstudio.com/
+22下载器mortix   https://motrix.app/
+23fileconverter   https://file-converter.io/download.html
+24potplayer   https://potplayer.info/ff
+25cheat engine   https://www.cheatengine.org/
+26aboube  Adobe全家桶 — 官网下然后自行配置 kwwsv://jlwkxe.frp/hwkhulchg/JhqS/uhohdvhv (凯撒+3)
+27OBS  https://obsproject.com/
+28everything    https://www.voidtools.com/zh-cn/downloads/
+29clash	  https://github.com/clash-verge-rev/clash-verge-rev/blob/dev/README.md
+30UGEE  https://www.ugee.com.cn/download/136.html
+31DLSS Swapper   https://github.com/beeradmoore/dlss-swapper/blob/main/readmes/readme_zh-Hans.md
+32powertoys   https://github.com/microsoft/PowerToys?tab=readme-ov-file    U盘或https://www.bilibili.com/video/BV14RsoefEPT/
+33哔哩哔哩直播姬  https://link.bilibili.com/p/eden/download?hotRank=0#/web
+34pixpin  https://pixpin.cn/
+35msi小飞机 https://www.msi.com/Landing/afterburner/graphics-cards  教程https://www.bilibili.com/video/BV1gM411S7ZN
+36妈宝 U盘
+37disk genius    https://www.diskgenius.cn/download.php
+38dism++  https://github.com/Chuyu-Team/Dism-Multi-language/releases
+39（台式可选）Iriun Webcam  irium.com
+40Windows HDR Calibration  微软商店
+41r2modman  https://thunderstore.io/package/ebkr/r2modman/
+42SpaceSniffer   https://github.com/redtrillix/SpaceSniffer/releases
+43（按需选择）某大佬   https://www.dogfight360.com/blog/
+44Mem Reduct       https://github.com/henrypp/memreduct/releases
+45弹幕姬  https://reito.fun/apps/blive
+46点歌姬  https://reito.fun/apps/songchan
+47搞机工具箱   https://jamcz.com/
+暂定48spacedesk   https://www.bilibili.com/video/BV1P9BNYdEgY/
+49NetLimiter    https://www.netlimiter.com/    安装文件在U盘 kwws://zzz.fmeaw.frp/vriw/2478.kwpo (凯撒+3)
+50硬盘图标修改   https://www.bilibili.com/video/BV1nK411C7j1/
+51卸载edge    https://github.com/ShadowWhisperer/Remove-MS-Edge
+52solidworks — 自行安装
+53autocad — 自行安装
+（还没装）54Fusion衍生式设计    https://www.autodesk.com.cn/products/fusion-360/personal
+55（按需选择，不可安全启动）HackBGRT改开机logo
+56VMware   https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+57MagicEXIF  https://www.bilibili.com/video/BV1rm411d7LP/
+58Wallpaper_Manager    https://github.com/ecokayiza/Wallpaper_Manager/releases/
+59Chrome  https://www.google.cn/chrome/index.html
+60ClassIsland  https://classisland.tech/download
+61键盘驱动https://via.toqmk.com/
+62小键盘驱动  U盘
+63图吧工具箱  https://www.tubatool.com/download/
+64MobaXterm  https://mobaxterm.mobatek.net/
+65balenaEtcher https://etcher.balena.io/
+66（可能预装了）Dolby Access 微软应用商店
+67Apple Music 微软应用商店
+68ShaderGlass  https://github.com/mausimus/ShaderGlass
+69VidBee   https://vidbee.org/zh/download/
+70Genshin fps unlock      https://github.com/34736384/genshin-fps-unlock
+71python  https://www.python.org/
+72JAVA https://www.java.com/zh-CN/
+73ican工具箱 https://ican.jlc.com/
+74大国工匠  https://www.global-dsc.cn/dggj
+75OrcaSlicer   https://www.orcaslicer.com/download/
+76飞智手柄驱动 https://www.flydigi.com/index/down
+77claude code  https://code.claude.com/docs/zh-CN/overview
+78爱思助手  https://www.i4.cn/
+79飞书  https://www.feishu.cn/
+80bettergi https://www.bettergi.com
+81tailscale https://tailscale.com/download
+82Apollo  https://github.com/ClassicOldSong/Apollo/releases
+83CC-Switch    https://github.com/farion1231/cc-switch
