@@ -1,6 +1,6 @@
 # E:\toolbox · 工具箱总目录
 
-> **版本:** 1.0 · **最后更新:** 2026-05-30 ·
+> **版本:** 1.0 · **最后更新:** 2026-05-31 ·
 > 本目录是工具箱的长期伴随文档，随工具箱的增删改而更新。**每次新增、移除或搬迁工具后，请同步修改此文件。**
 
 ---
@@ -12,6 +12,7 @@ E:\toolbox\
 ├── 📂 CATALOG.md          ← 本文档，工具箱总目录
 ├── 📂 index\              索引与元数据
 ├── 📂 config\             配置文件
+├── 📂 sync\                自动同步（auto-sync / tool-log）
 ├── 📂 scripts\            管理脚本
 ├── 📂 doc\                文档资料
 ├── 📂 bin\                bat 包装器入口
@@ -219,12 +220,16 @@ E:\toolbox\
 
 | 文件 | 路径 | 说明 |
 |------|------|------|
-| **TOOLCHAIN_INDEX** | `E:\toolbox\index\TOOLCHAIN_INDEX.md` | 旧版工具链索引（内容已过时，仅供参考） |
-| **QUICK_REF** | `E:\toolbox\index\QUICK_REF.md` | 旧版快速参考卡 |
+| **QUICK_REF** | `E:\toolbox\index\QUICK_REF.md` | 快速参考卡 |
 | **ENV_SETUP** | `E:\toolbox\config\ENV_SETUP.md` | 环境变量配置说明 |
 | **MIGRATION_GUIDE** | `E:\toolbox\doc\MIGRATION_GUIDE.md` | 工具迁移指南 |
 | **setup-env.bat** | `E:\toolbox\scripts\setup-env.bat` | 环境设置脚本 |
 | **toolchain-check.bat** | `E:\toolbox\scripts\toolchain-check.bat` | 工具链健康检查 |
+| **auto-sync.bat** | `E:\toolbox\sync\auto-sync.bat` | 自动同步 → GitHub（计划任务 `AutoSync-Toolbox` 触发） |
+| **tool-log.cmd** | `E:\toolbox\sync\tool-log.cmd` | 手动提交工具，`tool-log "变更说明"` |
+| **手动同步.cmd** | `E:\toolbox\手动同步.cmd` | 交互式手动同步，双击运行后输入说明 |
+| **HOWTO_UPDATE** | `E:\toolbox\HOWTO_UPDATE.txt` | 更新操作指南 |
+| **同步主页** | `E:\toolbox\同步主页.url` | [GitHub 仓库](https://github.com/shygod4/toolbox-catalog)，不纳入 git 跟踪 |
 | **bin/\*.bat** | `E:\toolbox\bin\` | Go/Rust/Java/CMake 包装器 |
 | **ep_setup.exe** | `E:\toolbox\` (根目录) | Everything 搜索工具安装程序 |
 
@@ -238,8 +243,9 @@ E:\toolbox\
 |------|------|------|
 | 2025-03-20 | 初始结构创建 | 建立分类目录体系 (bin/doc/index/config/...) |
 | 2026-05-30 | 全面盘点 | 创建 `CATALOG.md`，首次对全部工具实盘清点 |
+| 2026-05-31 | 自动同步修复 & 整理 | 修复编码/行尾问题，创建 `sync\` 目录统一管理同步脚本，清理过时索引文件 |
 
-> **关于修改留痕**：工具箱根目录未纳入 Git 版本管理。若需自动追踪变更，建议将 `E:\toolbox` 初始化为 Git 仓库，或使用工具自身版本号。本目录作为人工维护的清单，变更留痕依赖于每次修改后的手动更新。建议在**新增/移除工具时同步更新此文件**并在上方表格追加记录。
+> **关于修改留痕**：工具箱根目录已纳入 Git 版本管理。若需自动追踪变更，建议将 `E:\toolbox` 初始化为 Git 仓库，或使用工具自身版本号。本目录作为人工维护的清单，变更留痕依赖于每次修改后的手动更新。建议在**新增/移除工具时同步更新此文件**并在上方表格追加记录。
 
 ### B. 占比 TOP5（按磁盘占用）
 

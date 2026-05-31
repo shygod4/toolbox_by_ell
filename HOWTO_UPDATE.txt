@@ -1,7 +1,12 @@
 如何更新工具箱目录
 ===================
 
-新增/更新/移除工具后，只需在终端执行一条命令：
+工具箱有 2 种同步方式：
+
+一、手动记录（推荐日常使用）
+------------------------------
+
+新增/更新/移除工具后，在终端执行：
 
     tool-log "做了什么"
 
@@ -13,10 +18,41 @@
 该命令会自动完成：暂存 → commit → 推送 → GitHub 同步。
 如果 tool-log 命令找不到，运行完整路径：
 
-    E:\toolbox\scripts\tool-log.cmd "做了什么"
+    E:\toolbox\sync\tool-log.cmd "做了什么"
 
 完成后在浏览器查看记录：
     https://github.com/shygod4/toolbox-catalog/commits/main
 
+
+二、自动同步（开机兜底）
+--------------------------
+
+计划任务 AutoSync-Toolbox 在每次登录后延迟 1 分钟自动运行：
+
+    sync\auto-sync.bat
+    ├── git pull --rebase      拉取远程最新
+    ├── git add -A             暂存本地变更
+    ├── git commit -m "..."    有变更则提交（含日期时间）
+    └── git push               推送到 GitHub
+
+日常用 tool-log 手动提交时往往没有额外变更，auto-sync 会自动跳过。
+两者不冲突。
+
+三、管理计划任务
+------------------
+
+    # 查看状态
+    schtasks /query /tn "AutoSync-Toolbox" /fo LIST /v
+
+    # 禁用（不想自动同步时）
+    schtasks /change /tn "AutoSync-Toolbox" /disable
+
+    # 重新启用
+    schtasks /change /tn "AutoSync-Toolbox" /enable
+
+    # 立即手动触发
+    E:\toolbox\sync\auto-sync.bat
+
 ---
 影子
+

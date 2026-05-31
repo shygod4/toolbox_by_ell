@@ -33,40 +33,40 @@ E:\toolbox\scripts\toolchain-check.bat
 
 ```
 E:\toolbox\
-├── bin\          # 可执行文件入口
-├── doc\          # 文档资料
-├── index\        # 索引文件
-├── config\       # 配置文件
-├── scripts\      # 管理脚本
-├── temp\         # 临时文件
-├── languages\    # 编程语言
-├── runtimes\     # 运行时
-├── compilers\    # 编译器
-├── build-tools\  # 构建工具
-├── utilities\    # 实用工具
-├── media\        # 多媒体工具
-├── containers\   # 容器工具
-├── databases\    # 数据库
-├── vcs\          # 版本控制
-└── editors\      # 编辑器
+├── CATALOG.md    工具总清单
+├── .gitignore    白名单规则
+├── HOWTO_UPDATE.txt  更新操作指南
+├── bin\          bat 包装器入口
+├── sync\         自动同步（auto-sync / tool-log）
+├── scripts\      管理脚本（setup-env / toolchain-check）
+├── config\       配置文件
+├── doc\          文档资料
+├── index\        索引
+└── temp\         临时文件
 ```
 
 ## 🔧 日常维护
 
-### 更新工具
+### 记录变更
 ```cmd
-# 检查更新
-toolchain-check.bat
+tool-log 新增了某某工具
+```
 
-# 手动更新各工具
-winget upgrade GoLang.Go
-winget upgrade Rustlang.Rustup
+### 检查工具链
+```cmd
+toolchain-check.bat
+```
+
+### 设置环境变量
+```cmd
+setup-env.bat
 ```
 
 ### 添加新工具
 1. 下载并安装到对应子目录
 2. 在 `E:\toolbox\bin` 创建包装脚本
 3. 运行 `setup-env.bat` 更新环境变量
+4. 用 `tool-log "新增xxx"` 提交记录
 
 ## ⚠️ 注意事项
 
@@ -75,5 +75,5 @@ winget upgrade Rustlang.Rustup
 - 定期运行健康检查确保工具正常
 
 ---
-*最后更新: 2026-03-20*
-*版本: 1.0*
+*最后更新: 2026-05-31*
+*版本: 1.1*
