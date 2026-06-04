@@ -50,7 +50,7 @@
 49NetLimiter    https://www.netlimiter.com/    安装文件在U盘 kwws://zzz.fmeaw.frp/vriw/2478.kwpo (凯撒+3)
 50硬盘图标修改   https://www.bilibili.com/video/BV1nK411C7j1/
 51卸载edge    https://github.com/ShadowWhisperer/Remove-MS-Edge
-52solidworks — 自行安装
+52solidworks — 自行安装softgj
 53autocad — 自行安装
 （还没装）54Fusion衍生式设计    https://www.autodesk.com.cn/products/fusion-360/personal
 55（按需选择，不可安全启动）HackBGRT改开机logo
